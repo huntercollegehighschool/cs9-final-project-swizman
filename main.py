@@ -13,7 +13,7 @@ def start():
     print(oops)
     start()
 def choc():
-  choice1 = input("Awesome! Chocolate ice cream goes great with whipped cream; would you like something? Type 'Whip' for whipped cream, and 'Pass' for none.\n").lower()
+  choice1 = input("Awesome! Chocolate ice cream goes great with whipped cream; would you like some? Type 'Whip' for whipped cream, and 'Pass' for none.\n").lower()
   if choice1 == "whip":
     whip()
   elif choice1 == "pass":
